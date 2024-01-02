@@ -1,0 +1,10 @@
+[package]
+name = "play_ground"
+version = "0.1.0"
+edition = "2021"
+author = ["Lincoln Ruteski <@ruteski>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "*" # vai tentar pegar a ultima versao
