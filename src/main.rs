@@ -6,7 +6,8 @@
 //mod funcao_com_ponteiro_e_referencia;
 //mod structs;
 //mod metodos_funcoes_relacionadas;
-mod condicionais_loops;
+//mod condicionais_loops;
+mod matching;
 
 fn main() {
    /* TIPOS DE VARIAVEIS
@@ -38,6 +39,7 @@ fn main() {
    //funcao_com_ponteiro_e_referencia::func_ponteiro_referencia();
    //structs::structs();
    //metodos_funcoes_relacionadas::metodos_funcoes_relacionadas();
-   condicionais_loops::condicionais_loops();
+   //condicionais_loops::condicionais_loops();
+   matching::matching();
 
 }
