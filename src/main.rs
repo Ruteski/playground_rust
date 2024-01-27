@@ -2,8 +2,9 @@
 //mod array;
 //mod slice;
 //mod stack_heap;
-mod ownership;
-
+//mod ownership;
+//mod funcao_com_ponteiro_e_referencia;
+mod structs;
 
 fn main() {
    /* TIPOS DE VARIAVEIS
@@ -31,7 +32,8 @@ fn main() {
    //array::array();
    //slice::slice();
    //stack_heap::stack_heap();
-   ownership::ownership();
-
+   //ownership::ownership();
+   //funcao_com_ponteiro_e_referencia::func_ponteiro_referencia();
+   structs::structs();
 
 }
