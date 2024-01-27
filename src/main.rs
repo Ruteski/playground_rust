@@ -5,7 +5,8 @@
 //mod ownership;
 //mod funcao_com_ponteiro_e_referencia;
 //mod structs;
-mod metodos_funcoes_relacionadas;
+//mod metodos_funcoes_relacionadas;
+mod condicionais_loops;
 
 fn main() {
    /* TIPOS DE VARIAVEIS
@@ -36,6 +37,7 @@ fn main() {
    //ownership::ownership();
    //funcao_com_ponteiro_e_referencia::func_ponteiro_referencia();
    //structs::structs();
-   metodos_funcoes_relacionadas::metodos_funcoes_relacionadas();
+   //metodos_funcoes_relacionadas::metodos_funcoes_relacionadas();
+   condicionais_loops::condicionais_loops();
 
 }
