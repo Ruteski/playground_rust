@@ -4,7 +4,8 @@
 //mod stack_heap;
 //mod ownership;
 //mod funcao_com_ponteiro_e_referencia;
-mod structs;
+//mod structs;
+mod metodos_funcoes_relacionadas;
 
 fn main() {
    /* TIPOS DE VARIAVEIS
@@ -34,6 +35,7 @@ fn main() {
    //stack_heap::stack_heap();
    //ownership::ownership();
    //funcao_com_ponteiro_e_referencia::func_ponteiro_referencia();
-   structs::structs();
+   //structs::structs();
+   metodos_funcoes_relacionadas::metodos_funcoes_relacionadas();
 
 }
