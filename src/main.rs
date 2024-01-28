@@ -9,7 +9,8 @@
 //mod condicionais_loops;
 //mod matching;
 //mod enums;
-mod options;
+//mod options;
+mod vetores;
 
 fn main() {
    /* TIPOS DE VARIAVEIS
@@ -44,6 +45,7 @@ fn main() {
    //condicionais_loops::condicionais_loops();
    //matching::matching();
    //enums::enums();
-   options::optionss();
+   //options::optionss();
+   vetores::vetores();
 
 }
