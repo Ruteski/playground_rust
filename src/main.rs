@@ -13,7 +13,8 @@
 //mod vetores;
 //mod hashmap;
 //mod if_let;
-mod match_loop;
+//mod match_loop;
+mod while_let;
 
 fn main() {
    /* TIPOS DE VARIAVEIS
@@ -52,6 +53,7 @@ fn main() {
    //vetores::vetores();
    //hashmap::hasmap();
    //if_let::if_let();
-   match_loop::match_loop();
+   //match_loop::match_loop();
+   while_let::while_let();
 
 }
