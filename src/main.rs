@@ -11,7 +11,8 @@
 //mod enums;
 //mod options;
 //mod vetores;
-mod hashmap;
+//mod hashmap;
+mod if_let;
 
 fn main() {
    /* TIPOS DE VARIAVEIS
@@ -48,6 +49,7 @@ fn main() {
    //enums::enums();
    //options::optionss();
    //vetores::vetores();
-   hashmap::hasmap();
+   //hashmap::hasmap();
+   if_let::if_let();
 
 }
