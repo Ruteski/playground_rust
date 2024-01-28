@@ -10,7 +10,8 @@
 //mod matching;
 //mod enums;
 //mod options;
-mod vetores;
+//mod vetores;
+mod hashmap;
 
 fn main() {
    /* TIPOS DE VARIAVEIS
@@ -46,6 +47,7 @@ fn main() {
    //matching::matching();
    //enums::enums();
    //options::optionss();
-   vetores::vetores();
+   //vetores::vetores();
+   hashmap::hasmap();
 
 }
