@@ -14,7 +14,8 @@
 //mod hashmap;
 //mod if_let;
 //mod match_loop;
-mod while_let;
+//mod while_let;
+mod enum_result;
 
 fn main() {
    /* TIPOS DE VARIAVEIS
@@ -54,6 +55,7 @@ fn main() {
    //hashmap::hasmap();
    //if_let::if_let();
    //match_loop::match_loop();
-   while_let::while_let();
+   //while_let::while_let();
+   enum_result::enum_result();
 
 }
