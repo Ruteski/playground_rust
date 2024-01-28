@@ -8,7 +8,8 @@
 //mod metodos_funcoes_relacionadas;
 //mod condicionais_loops;
 //mod matching;
-mod enums;
+//mod enums;
+mod options;
 
 fn main() {
    /* TIPOS DE VARIAVEIS
@@ -42,6 +43,7 @@ fn main() {
    //metodos_funcoes_relacionadas::metodos_funcoes_relacionadas();
    //condicionais_loops::condicionais_loops();
    //matching::matching();
-   enums::enums();
+   //enums::enums();
+   options::optionss();
 
 }
