@@ -15,7 +15,18 @@
 //mod if_let;
 //mod match_loop;
 //mod while_let;
-mod enum_result;
+//mod enum_result;
+
+struct Point {
+   x: f64,
+   y: f64,
+}
+
+impl Point {
+   fn distance_from_origin(&self) -> f64 {
+       (self.x.powi(2) + self.y.powi(2)).sqrt()
+   }
+}
 
 fn main() {
    /* TIPOS DE VARIAVEIS
@@ -56,6 +67,18 @@ fn main() {
    //if_let::if_let();
    //match_loop::match_loop();
    //while_let::while_let();
-   enum_result::enum_result();
+   //enum_result::enum_result();
+
+   let p = Point { x: 3.0, y: 4.0 };
+   println!("A distância do ponto ({}, {}) da origem é {}", p.x, p.y, p.distance_from_origin());
+
+   let x = 5;
+   let y = 6;
+   let z = {
+       let a = 3;
+       let b = 4;
+       a + b
+   };
+   println!("O resultado da operação é: {}", x + y + z);
 
 }
